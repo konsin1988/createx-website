@@ -1,0 +1,11 @@
+include ./mixins/index
+
+doctype html
+html(lang='ru')
+    head
+        include ./static/_head
+        title=title
+    body
+        .container
+            .raw
+                block content
