@@ -5,3 +5,21 @@ $breakpoints: (
   sm: 767px,
   xs: 576px,
 );
+
+/*************** Colors **********/
+$white: #fff;
+$grey700: #787a80;
+$grey800: #424551;
+$grey900: #1e212c;
+$primaryColor: #ff5a30;
+$successColor: #03cea4;
+$dangerColor: #ff4242;
+$warningColor: #f89828;
+$infoColor: #5a87fc;
+$dividerGradient: linear-gradient(
+  rgba(218, 219, 221, 0) 0%,
+  rgba(218, 219, 221, 0.5) 10%,
+  rgba(218, 219, 221, 1) 50%,
+  rgba(218, 219, 221, 0.5) 90%,
+  rgba(218, 219, 221, 0) 100%
+);

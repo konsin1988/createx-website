@@ -1,0 +1,11 @@
+%linkHover {
+  transition: all 0.1s;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.4;
+  }
+  &:active {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+}
